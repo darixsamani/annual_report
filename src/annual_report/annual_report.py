@@ -60,4 +60,5 @@ class AnnalReport():
         soup = self.parse_html(response.text)
         for l in soup.find_all(href=lambda a: a and re.compile(r"^/url\?q=(?P<url>.*\.pdf).*").match(a)):
             result.append(re.match(r"^/url\?q=(?P<url>.*\.pdf).*", l.get("href")).group("url"))
+            
         self.result = result
