@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: annual-report
+Version: 0.0.1
+Summary: the objectives of this project, is to retrieve all annual report documents on a given website
+Home-page: https://github.com/darixsamani/annual_report
+Author: Darix SAMANI
+Author-email: samandarix@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
