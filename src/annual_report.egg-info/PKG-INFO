@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: annual-report
-Version: 0.0.1
+Version: 0.0.2
 Summary: the objectives of this project, is to retrieve all annual report documents on a given website
 Home-page: https://github.com/darixsamani/annual_report
 Author: Darix SAMANI
@@ -12,3 +12,41 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: beautifulsoup4==4.12.2
+Requires-Dist: bs4==0.0.1
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: charset-normalizer==3.2.0
+Requires-Dist: exceptiongroup==1.1.2
+Requires-Dist: idna==3.4
+Requires-Dist: iniconfig==2.0.0
+Requires-Dist: packaging==23.1
+Requires-Dist: pluggy==1.2.0
+Requires-Dist: pytest==7.4.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: soupsieve==2.4.1
+Requires-Dist: tomli==2.0.1
+Requires-Dist: urllib3==2.0.4
+
+## Annual Report
+    the objectives of this project, is to retrieve all annual report documents on a given website
+
+
+## How to Install
+
+```
+pip install annual_report
+
+```
+
+## How to use
+
+
+```python
+
+import annual_report
+
+
+ annual_report = AnnualReport("https://pdfdrive.com")
+ annual_report.scraper_with_google()
+ annual_report.save_with_json("./result")
+ annual_report.save_with_csv("./result")

@@ -3,7 +3,6 @@ README.md
 setup.cfg
 setup.py
 ./src/annual_report/__init__.py
-./src/annual_report/__main__.py
 ./src/annual_report/annual_report.py
 ./src/annual_report.egg-info/PKG-INFO
 ./src/annual_report.egg-info/SOURCES.txt

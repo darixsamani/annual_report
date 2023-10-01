@@ -9,7 +9,7 @@ import json
 import time
 
 
-class AnnalReport():
+class AnnualReport():
     site: str
     result : List[str] = []
 

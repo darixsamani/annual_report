@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='annual_report',
-    version='0.0.1',
+    version='0.0.2',
     packages=['annual_report'],
     license='MIT license',
     description="the objectives of this project, is to retrieve all annual report documents on a given website",
