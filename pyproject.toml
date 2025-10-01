@@ -1,0 +1,37 @@
+[project]
+name = "annual-report"
+version = "0.1.0"
+description = "the objectives of this project, is to retrieve all annual report documents on a given website"
+readme = "README.md"
+authors = [
+    { name = "Darix SAMANI SIEWE", email = "samanidarix@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4==4.12.2",
+    "bs4==0.0.1",
+    "certifi==2023.7.22",
+    "charset-normalizer==3.2.0",
+    "exceptiongroup==1.1.2",
+    "idna==3.4",
+    "iniconfig==2.0.0",
+    "packaging==23.1",
+    "pluggy==1.2.0",
+    "pytest==7.4.0",
+    "requests==2.31.0",
+    "soupsieve==2.4.1",
+    "tomli==2.0.1",
+    "urllib3==2.0.4",
+]
+
+[project.scripts]
+annual-report = "annual_report:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+]

@@ -37,7 +37,7 @@ class AnnualReport():
 
         return response
     
-    def parse_html(text):
+    def parse_html(self, text):
         return BeautifulSoup(text, "lxml")
     
 
