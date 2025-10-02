@@ -22,3 +22,10 @@ import annual_report
  annual_report.scraper_with_google()
  annual_report.save_with_json("./result")
  annual_report.save_with_csv("./result")
+```
+
+## How To Test
+
+```python
+pytest
+````
